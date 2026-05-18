@@ -1,0 +1,79 @@
+{
+  "pis": [
+    {
+      "name": "Dr. Nuwan K. Wijewardane",
+      "title": "Principal Investigator",
+      "department": "Agricultural & Biological Engineering, MSU",
+      "email": "nuwanw@abe.msstate.edu",
+      "bio": "Research focus on precision agriculture and plant stress monitoring.",
+      "image": "https://apsslab.abe.msstate.edu/wp-content/uploads/2022/03/Wijewardane-214x300.jpg",
+      "link": "https://apsslab.abe.msstate.edu"
+    },
+    {
+      "name": "Dr. Mary Love Tagert",
+      "title": "Principal Investigator",
+      "department": "Agricultural & Biological Engineering, MSU",
+      "email": "mltagert@abe.msstate.edu",
+      "bio": "Research focus on sustainable water resources, watershed modeling, non-point source pollution, and GIS-based environmental management.",
+      "image": "https://www.abe.msstate.edu/wp-content/uploads/mlove.jpg",
+      "link": "https://www.abe.msstate.edu/people/faculty/mary-love-tagert/"
+    },
+    {
+      "name": "Dr. Hussein Gharakhani",
+      "title": "Principal Investigator",
+      "department": "Agricultural & Biological Engineering, MSU",
+      "email": "gharakhani@abe.msstate.edu",
+      "bio": "Research focus on simulation of automated agricultural systems and precision agriculture.",
+      "image": "Hussein_Website_Photo.jpg",
+      "link": "https://www.robots4ag.com/"
+    },
+    {
+      "name": "Dr. Raju Bheemanahalli Rangappa",
+      "title": "Principal Investigator",
+      "department": "Plant & Soil Sciences, MSU",
+      "email": " rajubr@pss.msstate.edu",
+      "bio": "Expertise in plant physiology and stress responses.",
+      "image": "Raju_Website_Photo.jpg",
+      "link": "https://www.pss.msstate.edu/people/rbr145"
+    },
+    {
+      "name": "Dr. Donna Jean Peterson",
+      "title": "Principal Investigator",
+      "department": "Plant & Soil Sciences, MSU",
+      "email": "donna.peterson@msstate.edu",
+      "bio": "Specializes in remote sensing and data analysis.",
+      "image": "https://dm.its.msstate.edu/cob/dp846/pci/peterson_donna-1.jpg",
+      "link": "https://www.humansci.msstate.edu/people/dp846"
+    }
+  ],
+  "gradStudents": [
+    {
+      "name": "Seth Givens",
+      "title": "MSc in Agriculture Engineering Technology",
+      "department": "Agricultural & Biological Engineering",
+      "email": "sbg195@msstate.edu",
+      "bio": "Research on high-throughput phenotyping systems.",
+      "image": "https://apsslab.abe.msstate.edu/wp-content/uploads/2024/10/Seth1-e1727799314166-300x300.png",
+      "link": "https://www.linkedin.com/in/seth-givens-7933372a6/"
+    },
+    {
+      "name": "Sachin Cooray",
+      "title": "Ph.D. in Biosystems Engineering",
+      "department": "Agricultural & Biological Engineering",
+      "email": "tcc337@msstate.edu",
+      "bio": "Investigating rehabilitation robotics and biomechanical systems.",
+      "image": "https://apsslab.abe.msstate.edu/wp-content/uploads/2025/07/headshot-resize-scaled-e1752692269810-300x300.jpg",
+      "link": "https://www.linkedin.com/in/sachin-cooray/"
+    }
+  ],
+  "postdocs": [
+    {
+      "name": "Dr. Lekshmy V Sankarapillai",
+      "title": "Postdoctorial Associate",
+      "department": "Plant & Soil Science",
+      "email": " lv312@msstate.edu",
+      "image": "https://loop.frontiersin.org/images/profile/1222063/203",
+      "link": "https://www.linkedin.com/in/lekshmy-v-sankarapillai-260622145"
+    }
+  ]
+}

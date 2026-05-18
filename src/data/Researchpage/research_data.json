@@ -1,0 +1,235 @@
+{
+    "hero": {
+        "title": "Research",
+        "subtitle": "Advancing plant resilience through cutting-edge phenotyping and stress analysis"
+    },
+    "overview": {
+        "title": "Research Overview",
+        "description": "Our research focuses on understanding plant responses to environmental stresses through advanced phenotyping technologies. We conduct comprehensive studies examining heat stress, drought stress, and combined stress conditions across controlled greenhouse environments and field settings.",
+        "experiments": [
+            {
+                "icon": "🌡️",
+                "name": "Heat Stress Studies",
+                "description": "Investigating plant physiological responses to elevated temperature conditions",
+                "details": [
+                    "Temperature ranges: 30-45°C",
+                    "Duration: 4-8 weeks",
+                    "Multiple cultivar comparisons"
+                ]
+            },
+            {
+                "icon": "💧",
+                "name": "Drought Stress Analysis",
+                "description": "Examining water deficit impacts on plant growth and development",
+                "details": [
+                    "Controlled water deprivation protocols",
+                    "Soil moisture monitoring",
+                    "Recovery phase assessment"
+                ]
+            },
+            {
+                "icon": "🔥",
+                "name": "Combined Stress Conditions",
+                "description": "Studying interactive effects of multiple environmental stressors",
+                "details": [
+                    "Heat + drought combinations",
+                    "Synergistic effect analysis",
+                    "Real-world scenario simulation"
+                ]
+            }
+        ],
+        "settings": [
+            {
+                "type": "Greenhouse Experiments",
+                "description": "Controlled environment studies with precise regulation of temperature, humidity, light, and irrigation to isolate specific stress variables and enable detailed phenotyping."
+            },
+            {
+                "type": "Field Studies",
+                "description": "Real-world agricultural settings providing natural stress conditions and validating greenhouse findings under production environments with complex environmental interactions."
+            }
+        ]
+    },
+    "methods": {
+        "title": "Methods & Technologies",
+        "description": "Our lab employs state-of-the-art phenotyping technologies and analytical methods to capture comprehensive plant trait data across multiple scales and modalities.",
+        "technologies": [
+            {
+                "icon": "📸",
+                "name": "PlantEye 3D Scanner",
+                "purpose": "High-resolution 3D laser scanning system for structural phenotyping",
+                "capabilities": [
+                    "3D point cloud generation",
+                    "Canopy height and volume measurement",
+                    "Leaf area index (LAI) calculation",
+                    "Growth rate monitoring",
+                    "Non-destructive biomass estimation"
+                ],
+                "applications": "Weekly scans throughout growth cycles to track morphological changes"
+            },
+            {
+                "icon": "🤖",
+                "name": "OAK-D Cameras",
+                "purpose": "Spatial AI cameras with depth perception for multi-modal imaging",
+                "capabilities": [
+                    "RGB + depth imaging",
+                    "Stereo vision processing",
+                    "Real-time AI inference",
+                    "Automated plant detection",
+                    "Temporal growth tracking"
+                ],
+                "applications": "Daily automated imaging for continuous monitoring"
+            },
+            {
+                "icon": "🌈",
+                "name": "Hyperspectral Imaging",
+                "purpose": "Advanced spectroscopy for biochemical and physiological trait assessment",
+                "capabilities": [
+                    "400-2500nm spectral range",
+                    "Chlorophyll content analysis",
+                    "Water stress indicators",
+                    "Nutrient status detection",
+                    "Disease identification"
+                ],
+                "applications": "Weekly spectral measurements to detect physiological stress before visual symptoms"
+            },
+            {
+                "icon": "🌿",
+                "name": "Chlorophyll Fluorescence",
+                "purpose": "Non-invasive assessment of photosynthetic efficiency",
+                "capabilities": [
+                    "PSII quantum yield measurement",
+                    "Electron transport rate calculation",
+                    "Photochemical quenching analysis",
+                    "Stress-induced changes detection",
+                    "Diurnal pattern monitoring"
+                ],
+                "applications": "Bi-weekly measurements during critical growth stages"
+            },
+            {
+                "icon": "💻",
+                "name": "Machine Learning Pipeline",
+                "purpose": "Advanced data processing and predictive modeling",
+                "capabilities": [
+                    "Automated trait extraction",
+                    "Pattern recognition algorithms",
+                    "Stress prediction models",
+                    "Genotype classification",
+                    "Yield prediction"
+                ],
+                "applications": "Integration of multi-modal data for comprehensive analysis"
+            }
+        ],
+        "workflow": [
+            {
+                "phase": "Data Collection",
+                "description": "Systematic acquisition of multi-modal phenotyping data using automated imaging systems and manual measurements"
+            },
+            {
+                "phase": "Quality Control",
+                "description": "Rigorous validation and preprocessing to ensure data integrity and remove artifacts or outliers"
+            },
+            {
+                "phase": "Feature Extraction",
+                "description": "Automated extraction of quantitative traits from raw sensor data using computer vision and signal processing"
+            },
+            {
+                "phase": "Statistical Analysis",
+                "description": "Application of mixed models, ANOVA, and multivariate techniques to identify significant treatment effects"
+            },
+            {
+                "phase": "Machine Learning",
+                "description": "Development and validation of predictive models for stress detection and yield forecasting"
+            },
+            {
+                "phase": "Validation & Publication",
+                "description": "Cross-validation with independent datasets and dissemination through peer-reviewed publications"
+            }
+        ]
+    },
+    "experiments": {
+        "title": "Ongoing & Completed Experiments",
+        "description": "Our experimental portfolio spans multiple crop species and environmental conditions, generating comprehensive datasets for understanding plant stress responses.",
+        "studies": [
+            {
+                "title": "Multi-Cultivar Heat Tolerance Screening",
+                "status": "Ongoing",
+                "objective": "Identify heat-tolerant genotypes through comprehensive phenotyping of 50 cultivars under controlled heat stress conditions",
+                "duration": "12 months (Jan 2024 - Dec 2024)",
+                "sampleSize": "50 cultivars × 4 replicates × 3 stress levels",
+                "location": "Climate-controlled greenhouse facility",
+                "parameters": [
+                    "Canopy temperature",
+                    "Photosynthetic rate",
+                    "Stomatal conductance",
+                    "Chlorophyll content",
+                    "Biomass accumulation",
+                    "Grain yield"
+                ],
+                "findings": [
+                    "Identified 8 high-performing genotypes with <2°C canopy temperature increase",
+                    "Chlorophyll fluorescence shows early stress detection capability (10 days pre-symptom)",
+                    "Strong correlation (r=0.82) between early-stage vigor and final yield under stress"
+                ]
+            },
+            {
+                "title": "Drought Recovery Dynamics Study",
+                "status": "Completed",
+                "objective": "Characterize recovery trajectories following water deficit across developmental stages",
+                "duration": "8 months (Mar 2023 - Oct 2023)",
+                "sampleSize": "10 varieties × 5 replicates × 4 developmental stages",
+                "location": "Automated greenhouse system",
+                "parameters": [
+                    "Leaf water potential",
+                    "Root architecture",
+                    "Re-watering response time",
+                    "Yield penalty assessment",
+                    "Resource allocation patterns"
+                ],
+                "findings": [
+                    "Early vegetative stage drought has minimal long-term impact with adequate recovery",
+                    "Flowering stage stress reduces yield by 35-45% regardless of recovery period",
+                    "Rapid root system recovery (48-72h) predicts better overall plant resilience"
+                ]
+            },
+            {
+                "title": "Field-Scale Combined Stress Monitoring",
+                "status": "Ongoing",
+                "objective": "Validate greenhouse findings under natural field conditions with multiple concurrent stresses",
+                "duration": "24 months (May 2023 - Apr 2025)",
+                "sampleSize": "5 hectares × 15 genotypes × multi-location",
+                "location": "Research farms in Mississippi",
+                "parameters": [
+                    "Aerial RGB & thermal imaging",
+                    "Soil moisture profiling",
+                    "Weather station integration",
+                    "Harvest yield mapping",
+                    "Economic analysis"
+                ],
+                "findings": [
+                    "Field heterogeneity creates natural stress gradients for model validation",
+                    "Thermal imaging correlates well with ground-based stress measurements (r=0.76)",
+                    "ML models predict yield with 85% accuracy 4 weeks pre-harvest"
+                ]
+            },
+            {
+                "title": "High-Throughput Spectral Phenotyping",
+                "status": "Completed",
+                "objective": "Develop rapid spectroscopic methods for stress detection in breeding programs",
+                "duration": "6 months (Aug 2023 - Jan 2024)",
+                "sampleSize": "200 lines × 3 environments",
+                "location": "Breeding program field sites",
+                "parameters": [
+                    "Vegetation indices (NDVI, PRI, SIPI)",
+                    "Red-edge position",
+                    "Water band analysis",
+                    "Canopy reflectance signatures"
+                ],
+                "findings": [
+                    "Developed 5-minute per plot screening protocol",
+                    "PRI index shows highest sensitivity to water stress (AUC=0.91)",
+                    "Integration with breeding databases enables rapid trait mapping"
+                ]
+            }
+        ]
+    }
+}

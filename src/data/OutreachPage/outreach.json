@@ -1,0 +1,191 @@
+{
+    "page": {
+        "title": "Outreach & Education",
+        "subtitle": "Inspiring the Next Generation of Agricultural Scientists",
+        "intro": "The AgriSTEM camp is funded through National Science Foundation grant number 2418231 and will expose students to a variety of STEM activities focused on agriculture. Students will learn about different cutting-edge agricultural technologies through hands-on activities, project-based learning, and field trips. Students will also learn about different career paths in agricultural and biological engineering and plant and soil sciences. This is an overnight camp that runs from June 14-19; all lodging and meals will be provided. "
+    },
+    "programs": [
+        {
+            "id": "summer-camp",
+            "title": "Summer Research Camp",
+            "shortDescription": "Immersive week-long experience for high school students exploring plant stress research and agricultural technology.",
+            "icon": "☀️",
+            "color": "#5D1725",
+            "highlights": [
+                "Hands-on sensor technology training",
+                "Real greenhouse and field experiments",
+                "Data analysis and visualization",
+                "Meet MSU researchers and graduate students",
+                "Career exploration in agricultural sciences",
+                "Field Trips"
+            ],
+            "targetAudience": "High school students (grades 9-12)",
+            "duration": "1 week intensive program",
+            "nextSession": "June 2026",
+            "link": "/outreach/summer-camp",
+            "sections": {
+                "overview": {
+                    "title": "Camp Overview",
+                    "content": "The AgriSTEM camp is funded through National Science Foundation grant number 2418231 and will expose students to a variety of STEM activities focused on agriculture. Students will learn about different cutting-edge agricultural technologies through hands-on activities, project-based learning, and field trips. Students will also learn about different career paths in agricultural and biological engineering and plant and soil sciences. This is an overnight camp that runs from June 14-19; all lodging and meals will be provided.",
+                    "prerequisites": "No prior experience required. Open to students grades 9-12 with interest in science, agriculture, or technology.",
+                    "objectives": [
+                        "Understand plant responses to environmental stress",
+                        "Learn to use advanced sensing equipment (PlantEye, OAK cameras, spectroscopy)",
+                        "Develop data collection and analysis skills",
+                        "Explore careers in agricultural sciences and engineering",
+                        "Build confidence in STEM fields"
+                    ]
+                },
+                "schedule": {
+                    "title": "Schedule & Activities",
+                    "weeklySchedule": [
+                        {
+                            "day": "Monday",
+                            "theme": "Introduction to Plant Stress",
+                            "activities": [
+                                "Welcome & lab safety orientation",
+                                "Tour of greenhouse facilities",
+                                "Introduction to heat and drought stress concepts",
+                                "Hands-on: Measuring plant temperature with thermal cameras"
+                            ]
+                        },
+                        {
+                            "day": "Tuesday",
+                            "theme": "Sensor Technology",
+                            "activities": [
+                                "PlantEye 3D scanning demonstration",
+                                "Soil moisture sensor installation",
+                                "Data logger programming basics",
+                                "Field site visit"
+                            ]
+                        },
+                        {
+                            "day": "Wednesday",
+                            "theme": "Data Collection",
+                            "activities": [
+                                "Student-led plant measurements",
+                                "Spectroscopy analysis workshop",
+                                "Environmental monitoring",
+                                "Group project planning"
+                            ]
+                        },
+                        {
+                            "day": "Thursday",
+                            "theme": "Analysis & Interpretation",
+                            "activities": [
+                                "Data visualization with Excel/Python",
+                                "Statistical analysis introduction",
+                                "Research presentation skills",
+                                "Career panel with agricultural professionals"
+                            ]
+                        },
+                        {
+                            "day": "Friday",
+                            "theme": "Showcase & Celebration",
+                            "activities": [
+                                "Final group presentations",
+                                "Student research posters",
+                                "Awards ceremony",
+                                "Graduation celebration with families"
+                            ]
+                        }
+                    ],
+                    "dailySchedule": "8:30 AM - 4:00 PM with lunch break and snacks provided"
+                },
+                "apply": {
+                    "title": "How to Apply",
+                    "applicationPeriod": "Applications open: February 1, 2026",
+                    "deadline": "Application deadline: May 15, 2026",
+                    "cost": "FREE - No cost to participants",
+                    "eligibility": [
+                        "Currently enrolled in grades 9-12",
+                        "Interest in science, agriculture, or technology",
+                        "Able to commit to full week program"
+                    ],
+                    "requirements": [
+                        "Currently have completed grades 9, 10, 11, or 12. ",
+                        "Have an interest in science. ",
+                        "Commit to participating for the full week of camp. ",
+                        "Submit a completed application packet, including this application form and a current high school transcript."
+                    ],
+                    "selectionProcess": "Applications are reviewed on a rolling basis. Space is limited to 30 applicants, and registration will close on May 15th at 5 pm or when slots are filled.",
+                    "applicationLink": "https://goto.msstate.edu/register/?id=c7f7a8a1-086a-4698-9caa-79b2b9cb7564"
+                },
+                "parentsTeachers": {
+                    "title": "For Parents & Teachers",
+                    "forParents": {
+                        "title": "Parent Information",
+                        "details": [
+                            "Daily drop-off: 8:15 AM / Pick-up: 4:15 PM at ABE Building",
+                            "Lunch, snacks, and all materials provided at no cost",
+                            "Students should bring: Water bottle, sunscreen, comfortable outdoor shoes",
+                            "Supervision: Minimum 1 adult per 8 students at all times",
+                            "Safety: All activities follow MSU safety protocols; students receive safety training",
+                            "Communication: Daily email updates and photos shared with parents",
+                            "Emergency contact available 24/7 during camp week"
+                        ]
+                    },
+                    "forTeachers": {
+                        "title": "Teacher Partnership Opportunities",
+                        "details": [
+                            "Bring your class: Group registration available for school groups",
+                            "Curriculum alignment: Activities aligned with MS Science Standards",
+                            "Professional development: Teachers attend free, receive continuing education credit",
+                            "Classroom extensions: Take-home lesson plans and activities",
+                            "Equipment loans: Borrow soil moisture sensors for your classroom",
+                            "Guest speakers: Schedule researcher visits to your school"
+                        ]
+                    }
+                },
+                "faq": {
+                    "title": "Frequently Asked Questions",
+                    "questions": [
+                        {
+                            "q": "Do I need prior experience in agriculture or science?",
+                            "a": "No! The camp is designed for students of all backgrounds. We'll teach you everything you need to know."
+                        },
+                        {
+                            "q": "What should I bring?",
+                            "a": "Bring a water bottle, sunscreen, hat, and comfortable shoes for outdoor work. We provide all research equipment, materials, and meals."
+                        },
+                        {
+                            "q": "Will we be outside in the heat?",
+                            "a": "We work both indoors (greenhouse, labs) and outdoors (field sites). All outdoor activities include shade breaks and hydration. We monitor weather and adjust schedule for safety."
+                        },
+                        {
+                            "q": "Can I use my phone during camp?",
+                            "a": "Phones are allowed during breaks and lunch. During activities, we ask students to focus on hands-on learning, but phones can be used for taking photos of experiments."
+                        },
+                        {
+                            "q": "Is this a residential camp?",
+                            "a": "Yes. Students will be living in MSU dorms."
+                        },
+                        {
+                            "q": "How are students selected?",
+                            "a": "Applications are reviewed on a rolling basis. Space is limited to 30 applicants, and registration will close on May 15th at 5 pm or when slots are filled."
+                        }
+                    ]
+                },
+                "contact": {
+                    "title": "Camp Contact",
+                    "coordinator": "Dr. Mary Love Tagert",
+                    "email": "mltagert@abe.msstate.edu",
+                    "phone": "(662) 325-4617",
+                    "office": "225 Agricultural and Biological Engineering"
+                }
+            }
+        }
+    ],
+    "getInvolved": {
+        "title": "Get Involved",
+        "opportunities": [
+            "Volunteer as a mentor during summer camp",
+            "Host a field day at your school or organization",
+            "Partner with us on curriculum development",
+            "Provide feedback on outreach activities"
+        ],
+        "contact": {
+            "email": "mltagert@abe.msstate.edu"
+        }
+    }
+}

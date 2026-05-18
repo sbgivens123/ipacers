@@ -1,0 +1,114 @@
+{
+    "first_title": [
+        "Lesson Plans and Activity Guides",
+        {
+            "title": "Introduction to Soil Science",
+            "description": "A comprehensive lesson plan for middle school students exploring soil composition, types, and importance in agriculture.",
+            "download": "/downloads/soil-science-lesson.pdf"
+        },
+        {
+            "title": "Water Quality Testing Activity",
+            "description": "Hands-on activity guide for testing water pH, turbidity, and dissolved oxygen. Includes student worksheets and safety protocols.",
+            "download": "/downloads/water-quality-activity.pdf"
+        },
+        {
+            "title": "Plant Growth & Nutrition Lab",
+            "description": "Interactive lab guide examining how different nutrients affect plant growth. Suitable for high school biology classes.",
+            "download": "/downloads/plant-nutrition-lab.pdf"
+        },
+        {
+            "title": "Climate Data Analysis Workshop",
+            "description": "Step-by-step guide for students to analyze historical climate data and create visualizations.",
+            "download": "/downloads/climate-analysis-workshop.pdf"
+        }
+    ],
+    "second_title": [
+        "Datasets for Teachers and Students",
+        {
+            "title": "Mississippi Soil Properties Dataset",
+            "description": "County-level soil composition data including pH, organic matter content, and texture classification. CSV format with documentation.",
+            "link": "/datasets/ms-soil-properties.csv"
+        },
+        {
+            "title": "Agricultural Yield Data (2015-2024)",
+            "description": "Historical crop yield data for major Mississippi crops including cotton, soybeans, corn, and rice. Includes weather correlations.",
+            "link": "/datasets/agricultural-yield-data.xlsx"
+        },
+        {
+            "title": "Water Quality Monitoring Dashboard",
+            "description": "Interactive dashboard showing real-time and historical water quality measurements from monitoring stations across the state.",
+            "link": "https://dashboard.apss-lab.org/water-quality"
+        },
+        {
+            "title": "Precipitation Patterns Dataset",
+            "description": "Monthly precipitation data for Mississippi counties from 1990-2024. Perfect for climate studies and trend analysis.",
+            "link": "/datasets/precipitation-patterns.json"
+        }
+    ],
+    "third_title": [
+        "Partner Sites",
+        {
+            "title": "Mississippi State University",
+            "description": "Official MSU website with information about research programs, academic resources, and extension services.",
+            "link": "https://www.msstate.edu"
+        },
+        {
+            "title": "MSU Extension Service",
+            "description": "Resources for farmers, educators, and communities including publications, programs, and local county offices.",
+            "link": "https://extension.msstate.edu"
+        },
+        {
+            "title": "Agricultural & Biological Engineering",
+            "description": "MSU ABE department focusing on sustainable agricultural systems, water resources, and environmental engineering.",
+            "link": "https://www.abe.msstate.edu"
+        },
+        {
+            "title": "USDA Natural Resources Conservation Service",
+            "description": "Federal agency providing conservation technical assistance and financial support for agricultural producers.",
+            "link": "https://www.nrcs.usda.gov"
+        },
+        {
+            "title": "National Science Foundation",
+            "description": "Primary federal funding agency supporting fundamental research and education in science and engineering.",
+            "link": "https://www.nsf.gov"
+        },
+        {
+            "title": "Mississippi Department of Agriculture",
+            "description": "State agency overseeing agricultural programs, farmer resources, and food safety regulations.",
+            "link": "https://www.mdac.ms.gov"
+        }
+    ],
+    "fourth_title": [
+        "Safety and Ethics Resources",
+        {
+            "title": "Laboratory Safety Guidelines",
+            "description": "Comprehensive safety protocols for conducting experiments and fieldwork. Includes PPE requirements and emergency procedures.",
+            "download": "/downloads/lab-safety-guidelines.pdf"
+        },
+        {
+            "title": "Research Ethics for Student Projects",
+            "description": "Guide to ethical considerations in research including data collection, privacy, informed consent, and responsible reporting.",
+            "link": "/resources/research-ethics-guide.html"
+        },
+        {
+            "title": "Field Work Safety Checklist",
+            "description": "Pre-activity checklist for outdoor data collection including weather considerations, equipment needs, and buddy system protocols.",
+            "download": "/downloads/fieldwork-safety-checklist.pdf"
+        },
+        {
+            "title": "Data Privacy & Security Best Practices",
+            "description": "Guidelines for protecting participant information, securing data collection devices, and ensuring compliance with privacy regulations.",
+            "link": "/resources/data-privacy-guide.html"
+        },
+        {
+            "title": "Chemical Safety Data Sheets",
+            "description": "Access to MSDS/SDS for common laboratory chemicals used in soil and water testing activities.",
+            "link": "https://safety.msstate.edu/chemical-safety"
+        },
+        {
+            "title": "Student Research IRB Guidelines",
+            "description": "Information about when and how to obtain Institutional Review Board approval for student research projects involving human subjects.",
+            "link": "/resources/irb-student-guidelines.html"
+        }
+    ]
+}

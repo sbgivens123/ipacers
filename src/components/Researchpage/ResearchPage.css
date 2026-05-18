@@ -1,0 +1,594 @@
+.research-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.research-hero {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: linear-gradient(135deg, #5D1725 0%, #8B2332 100%);
+    color: white;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+}
+
+.research-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+/* .research-hero p {
+    font-size: 1.2rem;
+    opacity: 0.95;
+    z-index: -1;
+} */
+
+.research-nav {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 0;
+    overflow-x: auto;
+}
+
+.research-nav button {
+    padding: 1rem 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #6b7280;
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.research-nav button:hover {
+    color: #5D1725;
+    background-color: #f3f4f6;
+}
+
+.research-nav button.active {
+    color: #5D1725;
+    border-bottom-color: #5D1725;
+}
+
+.research-section {
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.research-section h2 {
+    font-size: 2rem;
+    color: #1f2937;
+    margin-bottom: 1rem;
+}
+
+.section-intro {
+    font-size: 1.1rem;
+    color: #4b5563;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+}
+
+/* Experiments Grid */
+.experiments-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.experiment-card {
+    background: white;
+    border: 2px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.experiment-card:hover {
+    border-color: #5D1725;
+    box-shadow: 0 4px 12px rgba(93, 23, 37, 0.15);
+    transform: translateY(-2px);
+}
+
+.experiment-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.experiment-card h3 {
+    font-size: 1.3rem;
+    color: #1f2937;
+    margin-bottom: 0.75rem;
+}
+
+.experiment-card p {
+    color: #6b7280;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.experiment-details {
+    list-style: none;
+    padding: 0;
+}
+
+.experiment-details li {
+    padding: 0.5rem 0;
+    color: #4b5563;
+    border-top: 1px solid #f3f4f6;
+}
+
+.experiment-details li:before {
+    content: "→ ";
+    color: #5D1725;
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+/* Research Locations */
+.research-locations {
+    margin-top: 3rem;
+}
+
+.research-locations h3 {
+    font-size: 1.5rem;
+    color: #1f2937;
+    margin-bottom: 1.5rem;
+}
+
+.locations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.location-card {
+    background: linear-gradient(135deg, #f6f8fb 0%, #ffffff 100%);
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 1.5rem;
+}
+
+.location-card h4 {
+    color: #5D1725;
+    font-size: 1.2rem;
+    margin-bottom: 0.75rem;
+}
+
+.location-card p {
+    color: #6b7280;
+    line-height: 1.6;
+}
+
+/* Technologies */
+.technologies-container {
+    display: grid;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.technology-card {
+    background: white;
+    border: 2px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 2rem;
+    transition: all 0.3s ease;
+}
+
+.technology-card:hover {
+    border-color: #5D1725;
+    box-shadow: 0 6px 16px rgba(93, 23, 37, 0.15);
+}
+
+.tech-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.tech-icon {
+    font-size: 2rem;
+}
+
+.tech-header h3 {
+    font-size: 1.5rem;
+    color: #1f2937;
+    margin: 0;
+}
+
+.tech-purpose {
+    color: #4b5563;
+    font-size: 1.05rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.tech-capabilities h4 {
+    color: #374151;
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+}
+
+.tech-capabilities ul {
+    list-style: none;
+    padding: 0;
+}
+
+.tech-capabilities li {
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+    color: #4b5563;
+}
+
+.tech-capabilities li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #5D1725;
+    font-weight: bold;
+}
+
+.tech-applications {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e5e7eb;
+    color: #4b5563;
+    line-height: 1.6;
+}
+
+/* Workflow */
+.methodology-workflow {
+    margin-top: 3rem;
+    background: linear-gradient(135deg, #f6f8fb 0%, #ffffff 100%);
+    border-radius: 12px;
+    padding: 2rem;
+}
+
+.methodology-workflow h3 {
+    font-size: 1.5rem;
+    color: #1f2937;
+    margin-bottom: 1.5rem;
+}
+
+.workflow-steps {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.workflow-step {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+
+.step-number {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    background: #5D1725;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.step-content h4 {
+    color: #1f2937;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.step-content p {
+    color: #6b7280;
+    line-height: 1.6;
+}
+
+/* Experiments Detailed */
+.experiments-detailed {
+    display: grid;
+    gap: 2rem;
+}
+
+.study-card {
+    background: white;
+    border: 2px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 2rem;
+    transition: all 0.3s ease;
+}
+
+.study-card:hover {
+    border-color: #5D1725;
+    box-shadow: 0 6px 16px rgba(93, 23, 37, 0.15);
+}
+
+.study-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.study-header h3 {
+    font-size: 1.5rem;
+    color: #1f2937;
+    margin: 0;
+}
+
+.study-status {
+    background: #5D1725;
+    color: white;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.study-objective {
+    color: #4b5563;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+}
+
+.study-details-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    background: #f9fafb;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.study-detail {
+    color: #4b5563;
+}
+
+.study-detail strong {
+    color: #1f2937;
+    display: block;
+    margin-bottom: 0.25rem;
+}
+
+.study-parameters {
+    margin-bottom: 1.5rem;
+}
+
+.study-parameters h4 {
+    color: #374151;
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+}
+
+.parameters-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.parameter-tag {
+    background: #FFF5F7;
+    color: #5D1725;
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: 1px solid #5D1725;
+}
+
+.study-findings h4 {
+    color: #374151;
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+}
+
+.study-findings ul {
+    list-style: none;
+    padding: 0;
+}
+
+.study-findings li {
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+    color: #4b5563;
+    line-height: 1.6;
+}
+
+.study-findings li:before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: #5D1725;
+    font-weight: bold;
+}
+
+/* Data Products */
+.data-products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.data-product-card {
+    background: white;
+    border: 2px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.data-product-card:hover {
+    border-color: #5D1725;
+    box-shadow: 0 4px 12px rgba(93, 23, 37, 0.15);
+    transform: translateY(-2px);
+}
+
+.product-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.product-icon {
+    font-size: 2rem;
+}
+
+.product-header h3 {
+    font-size: 1.3rem;
+    color: #1f2937;
+    margin: 0;
+}
+
+.data-product-card>p {
+    color: #6b7280;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.product-specs h4 {
+    color: #374151;
+    font-size: 1.05rem;
+    margin-bottom: 0.75rem;
+}
+
+.product-specs ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+.product-specs li {
+    padding: 0.4rem 0;
+    color: #4b5563;
+    padding-left: 1.2rem;
+    position: relative;
+}
+
+.product-specs li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #5D1725;
+    font-weight: bold;
+}
+
+.product-access {
+    padding-top: 1rem;
+    border-top: 1px solid #e5e7eb;
+    color: #4b5563;
+}
+
+.product-access strong {
+    color: #1f2937;
+}
+
+/* Data Availability */
+.data-availability {
+    background: linear-gradient(135deg, #f6f8fb 0%, #ffffff 100%);
+    border-radius: 12px;
+    padding: 2rem;
+}
+
+.data-availability h3 {
+    font-size: 1.5rem;
+    color: #1f2937;
+    margin-bottom: 1rem;
+}
+
+.data-availability>p {
+    color: #4b5563;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+}
+
+.availability-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.availability-option {
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 1.5rem;
+}
+
+.availability-option h4 {
+    color: #5D1725;
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+}
+
+.availability-option p {
+    color: #6b7280;
+    line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .research-page {
+        padding: 1rem;
+    }
+
+    .research-hero h1 {
+        font-size: 2rem;
+    }
+
+    .research-hero p {
+        font-size: 1rem;
+    }
+
+    .research-nav {
+        flex-wrap: nowrap;
+    }
+
+    .research-nav button {
+        padding: 0.75rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .experiments-grid,
+    .locations-grid,
+    .data-products-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .study-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .study-details-grid {
+        grid-template-columns: 1fr;
+    }
+}

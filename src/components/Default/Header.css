@@ -1,0 +1,334 @@
+/* MSU Maroon Theme Variables */
+:root {
+    --msu-maroon: #5D1725;
+    --msu-dark-maroon: #3D0F19;
+    --msu-light-maroon: #8B2332;
+    --msu-gold: #FFC72C;
+    --msu-green: #4CAF50;
+    --msu-cream: #F5F1E8;
+    --msu-white: #FFFFFF;
+}
+
+/* Navbar Container */
+.navbar {
+    background: linear-gradient(135deg, var(--msu-maroon) 0%, var(--msu-dark-maroon) 100%);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0;
+    padding: 0 1rem;
+    width: 100%;
+    z-index: 1000;
+    border-bottom: 3px solid var(--msu-gold);
+}
+
+.navbar-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+/* Logo */
+.navbar-logo a {
+    color: var(--msu-white);
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    transition: color 0.3s ease;
+}
+
+.navbar-logo a:hover {
+    color: var(--msu-gold);
+}
+
+.navbar-logo img {
+    height: 50px;
+    width: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.navbar-logo a:hover img {
+    transform: scale(1.05);
+}
+
+/* Navigation Menu */
+.navbar-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 5px;
+}
+
+.navbar-item {
+    position: relative;
+}
+
+.navbar-link {
+    display: block;
+    color: var(--msu-white);
+    text-decoration: none;
+    padding: 12px 18px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.navbar-link:hover {
+    background-color: var(--msu-light-maroon);
+    color: var(--msu-green);
+    transform: translateY(-2px);
+}
+
+.navbar-link:active {
+    transform: translateY(0);
+}
+
+/* Dropdown */
+.navbar-dropdown {
+    position: relative;
+}
+
+.dropdown-toggle {
+    background: none;
+    border: none;
+    color: var(--msu-white);
+    cursor: pointer;
+    padding: 12px 18px;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+    border-radius: 6px;
+}
+
+.dropdown-toggle:hover {
+    background-color: var(--msu-light-maroon);
+    color: var(--msu-green);
+}
+
+.dropdown-arrow {
+    font-size: 0.8rem;
+    margin-left: 0.3rem;
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+.dropdown-arrow.active {
+    transform: rotate(180deg);
+}
+
+.navbar-dropdown:hover .dropdown-arrow {
+    transform: rotate(180deg);
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--msu-dark-maroon);
+    min-width: 200px;
+    list-style: none;
+    padding: 0.5rem 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+}
+
+.navbar-dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.dropdown-menu li {
+    width: 100%;
+}
+
+.dropdown-menu a {
+    color: var(--msu-cream);
+    text-decoration: none;
+    padding: 0.7rem 1.2rem;
+    display: block;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-menu a:hover {
+    background-color: var(--msu-light-maroon);
+    color: var(--msu-green);
+}
+
+/* Hamburger Menu */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 1001;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: var(--msu-white);
+    margin: 3px 0;
+    transition: all 0.3s ease;
+    border-radius: 3px;
+}
+
+.hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(7px, 7px);
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -7px);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1300px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .navbar-menu {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        flex-direction: column;
+        background: linear-gradient(180deg, var(--msu-maroon) 0%, var(--msu-dark-maroon) 100%);
+        width: 100%;
+        max-width: 350px;
+        height: calc(100vh - 70px);
+        text-align: left;
+        transition: left 0.3s ease;
+        box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
+        overflow-y: auto;
+        gap: 0;
+        padding: 20px 0;
+    }
+
+    .navbar-menu.active {
+        left: 0;
+    }
+
+    .navbar-item {
+        width: 100%;
+    }
+
+    .navbar-link {
+        width: 100%;
+        padding: 15px 30px;
+        border-radius: 0;
+        border-left: 4px solid transparent;
+    }
+
+    .navbar-link:hover {
+        background-color: var(--msu-light-maroon);
+        border-left-color: var(--msu-green);
+        transform: translateX(5px);
+    }
+
+    .dropdown-menu {
+        position: static;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        box-shadow: none;
+        background-color: var(--msu-dark-maroon);
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+        padding: 0;
+    }
+
+    .dropdown-menu.active {
+        max-height: 200px;
+        padding: 0.5rem 0;
+    }
+
+    .dropdown-arrow {
+        display: inline-block;
+    }
+
+    .navbar-dropdown {
+        width: 100%;
+    }
+
+    .dropdown-toggle {
+        width: 100%;
+        padding: 15px 30px;
+        border-radius: 0;
+        border-left: 4px solid transparent;
+        justify-content: space-between;
+    }
+
+    .dropdown-toggle:hover {
+        background-color: var(--msu-light-maroon);
+        border-left-color: var(--msu-green);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar-container {
+        padding: 0 15px;
+        height: 60px;
+    }
+
+    .navbar-logo a {
+        font-size: 20px;
+    }
+
+    .navbar-menu {
+        top: 60px;
+        height: calc(100vh - 60px);
+        max-width: 100%;
+    }
+
+    .navbar-link {
+        padding: 12px 20px;
+        font-size: 15px;
+    }
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+
+    .navbar-link,
+    .navbar-menu,
+    .hamburger span,
+    .dropdown-arrow {
+        transition: none;
+    }
+}
+
+/* Focus states for keyboard navigation */
+.navbar-link:focus,
+.dropdown-toggle:focus,
+.hamburger:focus {
+    outline: 2px solid var(--msu-green);
+    outline-offset: 2px;
+}
+
+/* Active/Current page indicator */
+.navbar-link.active-page {
+    background-color: var(--msu-light-maroon);
+    border-bottom: 3px solid var(--msu-green);
+}

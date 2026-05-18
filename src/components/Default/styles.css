@@ -1,0 +1,161 @@
+/* links section */
+
+.social-icon-row {
+  background-color: #5d1725 !important;
+  margin-bottom: 0;
+}
+
+.social-icon-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.social-icon-container ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.social-icon-container ul li {
+  list-style: none;
+}
+
+.social-icon img {
+  width: 50px;
+  height: 50px;
+  padding: 15px;
+}
+
+/* Dropdown Container */
+.nav-item-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Toggle Button */
+.dropdown-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.dropdown-arrow {
+  font-size: 0.7rem;
+  transition: transform 0.3s;
+}
+
+.dropdown-open .dropdown-arrow {
+  transform: rotate(180deg);
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  min-width: 220px;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+.dropdown-menu.dropdown-open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown-item {
+  display: block;
+  padding: 0.75rem 1.25rem;
+  color: #333;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.dropdown-item:hover {
+  background: #f0f0f0;
+}
+
+.dropdown-item:first-child {
+  border-radius: 5px 5px 0 0;
+}
+
+.dropdown-item:last-child {
+  border-radius: 0 0 5px 5px;
+}
+
+.logo-text {
+  display: inline;
+}
+
+.logo-text-short {
+  display: none;
+}
+
+@media (max-width: 1200px) and (min-width: 769px) {
+  .logo-text {
+    display: none;
+  }
+
+  .logo-text-short {
+    display: inline;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+}
+
+
+
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .dropdown-menu {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    box-shadow: none;
+    background: rgba(0, 0, 0, 0.1);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+
+  .dropdown-menu.dropdown-open {
+    max-height: 200px;
+  }
+
+  .dropdown-item {
+    padding-left: 2rem;
+  }
+
+  .logo-text {
+    display: none;
+  }
+
+  .logo-text-short {
+    display: inline;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+
+}
+
+.dropdown-main {
+  font-size: 1.2em;
+  padding-top: 4px;
+}
