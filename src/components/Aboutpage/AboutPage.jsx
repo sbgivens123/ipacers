@@ -279,7 +279,7 @@ const AboutPage = () => {
                     window.open("https://www.humansci.msstate.edu/", "_blank");
                   }}
                 >
-                  <strong>Msstate School of Human Science</strong>
+                  <strong>School of Human Science</strong>
                 </div>
               </div>
             </div>
