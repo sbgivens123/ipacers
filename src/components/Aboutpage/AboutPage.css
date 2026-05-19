@@ -382,11 +382,14 @@
 }
 
 .partner-card strong {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 90px;
   color: #5d001e;
   font-size: 1.1rem;
   margin-bottom: 10px;
-  text-align: center;
 }
 
 .partner-card p {
